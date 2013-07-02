@@ -1,0 +1,528 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"tex-",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"URL",
+				"urlLocalidad"
+			],
+			[
+				"ca",
+				"catequizacion"
+			],
+			[
+				"catequi",
+				"catequizaciones"
+			],
+			[
+				"id",
+				"idGrupo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lang-es.php",
+			"settings":
+			{
+				"buffer_size": 1362,
+				"line_ending": "Unix",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "lang-en.php",
+			"settings":
+			{
+				"buffer_size": 1311,
+				"line_ending": "Unix",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "index.view.php",
+			"settings":
+			{
+				"buffer_size": 3498,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/streaming.css",
+			"settings":
+			{
+				"buffer_size": 1949,
+				"line_ending": "Unix",
+				"name": "body {"
+			}
+		},
+		{
+			"file": ".htaccess",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix",
+				"name": "<IfModule mod_rewrite.c>"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 348.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"gith",
+				"Github: Open File"
+			],
+			[
+				"githu",
+				"Github: Blame"
+			],
+			[
+				"git",
+				"Git: Diff Tool All"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Add Repository"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/wp-interceptor/.htaccess",
+		"/var/www/streaming-encontro/css/main.css",
+		"/var/www/streaming-encontro/index.php",
+		"/var/www/streaming-encontro/img/.gitignore",
+		"/home/isra/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/var/www/streaming-encontro/css/normalize.css",
+		"/var/www/streaming-encontro/apple-touch-icon-114x114-precomposed.png",
+		"/var/www/streaming-encontro/index.html",
+		"/home/isra/Escritorio/MySQL cert/notas/13-subqueries.md",
+		"/var/www/wordpress-analysis/index.php",
+		"/var/www/cat/src/Raices/CatequesisBundle/Resources/views/Catequizacion/verCatequizacion.html.twig",
+		"/var/www/cat/src/Raices/CatequesisBundle/Entity/CatequizacionRepository.php",
+		"/var/www/cat/src/Raices/CatequesisBundle/Controller/HomeController.php",
+		"/var/www/cat/src/Raices/CatequesisBundle/Controller/CatequizacionController.php",
+		"/var/www/cat/web/assets/small.css",
+		"/home/isra/Escritorio/autoeliminar.js",
+		"/var/www/cat/web/assets/main.css",
+		"/var/www/cat/src/Raices/CatequesisBundle/Resources/views/Home/index.html.twig",
+		"/var/www/cat/src/Raices/CatequesisBundle/Resources/views/base.html.twig",
+		"/home/isra/Escritorio/autofill.js",
+		"/var/www/cat/composer.json",
+		"/var/www/cat/web/assets/bootstrap/css/bootstrap.css",
+		"/var/www/cat/web/assets/bootstrap/css/bootstrap.min.css",
+		"/var/www/cat/src/Raices/CatequesisBundle/Resources/config/routing.yml",
+		"/var/www/cat/src/Raices/CatequesisBundle/Entity/LocalidadRepository.php",
+		"/var/www/cat/src/Raices/CatequesisBundle/Entity/Localidad.php",
+		"/var/www/cat/app/config/parameters.yml",
+		"/var/www/cat/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php",
+		"/var/www/cat/vendor/doctrine/orm/lib/Doctrine/ORM/ORMException.php",
+		"/home/isra/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/var/www/cat/app/Resources/views/base.html.twig",
+		"/home/isra/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/var/www/cat/web/assets/js/catequesis.js",
+		"/var/www/cat/app/config/parameters.yml.dist",
+		"/var/www/cat/app/config/config.yml",
+		"/var/www/cat/src/Raices/CatequesisBundle/Resources/views/Cms/quienes-somos.html.twig",
+		"/var/www/cat/src/Raices/CatequesisBundle/Controller/ParroquiaController.php",
+		"/var/www/cat/src/Raices/CatequesisBundle/Controller/CmsController.php",
+		"/home/isra/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/isra/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cached_file_get_contents",
+			"cached_file_get_contents\n\n\ncached_file_get_contents",
+			"absol\n\n\n\n",
+			".inicio",
+			"#08c",
+			"findByRequiresParameter",
+			"ignore",
+			"browser",
+			"file",
+			";",
+			"	",
+			"\\n",
+			"	",
+			"ctrl+shift+k",
+			"shift+ctrl+",
+			"\"\",",
+			"\"\",\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\n",
+			"\", \""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lang-es.php",
+					"settings":
+					{
+						"buffer_size": 1362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lang-en.php",
+					"settings":
+					{
+						"buffer_size": 1311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.view.php",
+					"settings":
+					{
+						"buffer_size": 3498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1659,
+								1659
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/streaming.css",
+					"settings":
+					{
+						"buffer_size": 1949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1253,
+								1253
+							]
+						],
+						"settings":
+						{
+							"auto_name": "body {",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1047.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": ".htaccess",
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<IfModule mod_rewrite.c>",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"vercate",
+				"src/Raices/CatequesisBundle/Resources/views/Catequizacion/verCatequizacion.html.twig"
+			],
+			[
+				"entity/catequia",
+				"src/Raices/CatequesisBundle/Entity/CatequizacionRepository.php"
+			],
+			[
+				"homecon",
+				"src/Raices/CatequesisBundle/Controller/HomeController.php"
+			],
+			[
+				"base.ht",
+				"src/Raices/CatequesisBundle/Resources/views/base.html.twig"
+			],
+			[
+				"base",
+				"app/Resources/views/base.html.twig"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 376.0,
+	"status_bar_visible": true
+}

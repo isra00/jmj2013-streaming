@@ -1,0 +1,136 @@
+/**
+ * Autor: Israel Viana;
+ *
+ * Verde: 33922e;
+ * Azul: 007bc2;
+ * Amarillo: fdc300;
+ */
+
+/*
+ * GENERAL
+ */
+body {
+	font-family: 'Signika';
+	font-size: 1.2em;
+}
+
+a,
+a:visited {
+	color: #007bc2;
+}
+
+strong {
+	font-weight: 400;
+}
+
+.languages {
+	text-align: center;
+	background: #eee;
+	padding: .4em 0 .5em;
+}
+	.languages a {
+		padding: 0 3% 0 20px;
+		background-color: transparent;
+		background-position: left center;
+		background-repeat: no-repeat;
+		display: inline-block;
+		font-size: .9em;
+		text-decoration: none
+	}
+	.languages a:hover {
+		text-decoration: underline;
+	}
+	.languages .pt {
+		background-image: url(../img/flags/pt.gif);
+	}
+	.languages .en {
+		background-image: url(../img/flags/us.gif);
+	}
+	.languages .it {
+		background-image: url(../img/flags/it.gif);
+	}
+	.languages .es {
+		background-image: url(../img/flags/es.gif);
+	}
+
+.main {
+	width: 50em;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+header {
+	margin: 3% 0;
+}
+
+.title {
+	text-align: center;
+	font-weight: 600;
+	margin: 0;
+	color: #33922e;
+}
+.subtitle {
+	text-align: center;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.intro-text {
+	margin: 2em 0;
+}
+
+.livestream-player {
+	text-align: center;
+}
+
+.not-yet {
+	background: #eee;
+	border: 1px solid silver;
+	border-radius: .4em;
+	padding: 5%;
+	text-shadow: 1px 1px 1px white;
+	color: #555;
+	margin: 0 auto;
+	width: 32em;
+}
+	.not-yet ul {
+		margin-bottom: 0;
+	}
+
+.bottom-links {
+	margin: 3em;
+	text-align: center;
+}
+	.bottom-links a {
+		display: inline-block;
+		margin: 2em;
+		text-decoration: none;
+		text-align: left;
+	}
+		.bottom-links a strong {
+			display: block;
+		}
+	.bottom-links .jmj-cnc {
+		
+	}
+
+
+/******************************************************* MOBILE *******************************************************/
+
+
+@media only screen and (max-width: 57em) {
+    .main {
+    	width: auto;
+    	padding: 1%;
+    }
+
+	.not-yet {
+		width: auto;
+	}
+
+	.bottom-links a {
+		display: block;
+		margin: 1.5em;
+		text-align: center;
+	}
+}
