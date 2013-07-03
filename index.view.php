@@ -69,7 +69,6 @@
 
         var checkDate = function() {
             var now = new Date();
-            console.log("Checking date");
             if (now >= meeting_date_utc) {
                 document.getElementById("livestream-player").style.display = "block";
                 document.getElementById("not-yet").style.display = "none";
