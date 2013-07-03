@@ -63,7 +63,7 @@
         meeting_date_utc.setUTCFullYear(2013);
         meeting_date_utc.setUTCMonth(06);
         meeting_date_utc.setUTCDate(29);
-        meeting_date_utc.setUTCHours(19); //UTC-3
+        meeting_date_utc.setUTCHours(17); //UTC-3
 
         document.getElementById("local-time").innerHTML = "<?php echo $msg['local_time'] ?>" + meeting_date_utc.getHours() + ":00.";
 

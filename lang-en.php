@@ -11,7 +11,7 @@ $msg['intro_text'] = 'Watch live the <strong>youth meeting</strong> with Kiko Ar
 
 $msg['streaming_help'] = 'Can\'t see the video properly? <a href="">Click here</a>.';
 
-$msg['not_yet_title'] = 'El evento será retransmitido el 29 de julio a las 17:00 hora de Rio (GMT -3):';
+$msg['not_yet_title'] = 'El evento será retransmitido el 29 de julio a las 14:00 hora de Rio (GMT -3):';
 $msg['tz_spain'] = 'España';
 $msg['tz_central_america'] = 'América Central';
 $msg['tz_usa'] = 'USA (EST)';
