@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
 
     <?php /** @todo Elegir solo los pesos y subset adecuados de la tipo!!! */ ?>
-    <link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/streaming.css">
@@ -21,10 +21,11 @@
     <![endif]-->
 
     <nav class="languages">
-        <?php if ($lang != 'pt') : ?><a href="" class="pt">Português</a><?php endif ?>
-        <?php if ($lang != 'en') : ?><a href="" class="en">English</a><?php endif ?>
-        <?php if ($lang != 'it') : ?><a href="" class="it">Italiano</a><?php endif ?>
-        <?php if ($lang != 'es') : ?><a href="" class="es">Español</a><?php endif ?>
+    <?php foreach ($languages as $code=>$l) : ?>
+        <?php if ($current_lang != $code) : ?>
+        <a href="<?php echo $l['url'] ?>" class="<?php echo $code ?>"><?php echo $l['name'] ?></a>
+        <?php endif ?>
+    <?php endforeach ?>
     </nav>
 
     <div class="main">
@@ -53,7 +54,7 @@
 
         <footer class="bottom-links">
             <a class="jmj-cnc" href="http://www.rio2013cnc.com/"><?php echo $msg['link_jmj_cnc'] ?></a>
-            <a class="jmj" href="http://rio2013.com"><img src="<?php echo ROOT ?>/img/logo-jmj.png" alt="<?php echo $msg['link_jmj'] ?>"></a>
+            <a class="jmj" href="http://rio2013.com"><?php echo $msg['link_jmj'] ?></a>
             <a class="cnc" href="http://camminoneocatecumenale.it"><?php echo $msg['link_cnc'] ?></a>
         </footer>
 

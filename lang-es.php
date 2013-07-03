@@ -17,7 +17,7 @@ $msg['tz_central_america'] = 'América Central';
 $msg['tz_usa'] = 'USA (EST)';
 
 $msg['link_jmj_cnc'] = 'Volver al site <strong>Rio 2013 CNC</strong>';
-$msg['link_jmj'] = 'Sitio oficial de la JMJ Rio 2013';
+$msg['link_jmj'] = 'Sitio oficial de la <strong>JMJ Rio 2013</strong>';
 $msg['link_cnc'] = 'Sitio oficial <strong>Camino Neocatecumenal</strong>';
 
 //$msg[''] = '';
