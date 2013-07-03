@@ -4,6 +4,6 @@
 	RewriteRule ^index\.php$ - [L]
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule encontro-vocacional-jovens-caminho-neocatecumenal index.php?lang=en [L]
+	RewriteRule youth-vocational-meeting-neocatechumenal-way index.php?lang=en [L]
 	RewriteRule encuentro-vocacional-jovenes-camino-neocatecumenal index.php?lang=es [L]
 </IfModule>

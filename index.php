@@ -11,17 +11,17 @@ $languages = array(
 		'name'	=> 'Castellano',
 		'url'	=> '/streaming-encontro/encuentro-vocacional-jovenes-camino-neocatecumenal',
 	),
-	'pt' => array(
+	/*'pt' => array(
 		'name'	=> 'Português',
 		'url'	=> '/streaming-encontro/encontro-vocacional-jovens-caminho-neocatecumenal'
-	),
+	),*/
 	'it' => array(
 		'name'	=> 'Italiano',
 		'url'	=> '/'
 	),
 	'en' => array(
 		'name'	=> 'English',
-		'url'	=> '/'
+		'url'	=> '/streaming-encontro/youth-vocational-meeting-neocatechumenal-way'
 	),
 );
 
