@@ -38,17 +38,13 @@
         <p class="intro-text"><?php echo $msg['intro_text'] ?></p>
 
         <section class="video-area">
-            <!--<div class="livestream-player">
+            <div class="livestream-player" id="livestream-player">
                 <object width="853" height="480"><param name="movie" value="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3" type="application/x-shockwave-flash" width="853" height="480" allowscriptaccess="always" allowfullscreen="true"></embed></object>
                 <p class="help"><?php echo $msg['streaming_help'] ?></p>
-            </div>-->
-            <div class="not-yet">
+            </div>
+            <div class="not-yet" id="not-yet">
                 <?php echo $msg['not_yet_title'] ?>
-                <ul>
-                    <li><?php echo $msg['tz_spain'] ?>: 22:00</li>
-                    <li><?php echo $msg['tz_central_america'] ?>: 15:00</li>
-                    <li><?php echo $msg['tz_usa'] ?>: 16:00</li>
-                </ul>
+                <p id="local-time"></p>
             </div>
         </section>
 
@@ -61,7 +57,28 @@
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script>
+    $(function() {
+        var meeting_date_utc = new Date();
+        meeting_date_utc.setUTCFullYear(2013);
+        meeting_date_utc.setUTCMonth(06);
+        meeting_date_utc.setUTCDate(29);
+        meeting_date_utc.setUTCHours(19); //UTC-3
+
+        document.getElementById("local-time").innerHTML = "<?php echo $msg['local_time'] ?>" + meeting_date_utc.getHours() + ":00.";
+
+        var checkDate = function() {
+            var now = new Date();
+            console.log("Checking date");
+            if (now >= meeting_date_utc) {
+                document.getElementById("livestream-player").style.display = "block";
+                document.getElementById("not-yet").style.display = "none";
+            }
+        };
+
+        setInterval(checkDate, 30*1000);
+    });
+    </script>
 
     <script>
         /*var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
