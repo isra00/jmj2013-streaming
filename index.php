@@ -9,7 +9,7 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 $languages = array(
 	'es' => array(
 		'name'	=> 'Castellano',
-		'url'	=> '/streaming-encontro/encuentro-vocacional-jovenes-camino-neocatecumenal',
+		'url'	=> '/encuentro-vocacional-jovenes-camino-neocatecumenal',
 	),
 	/*'pt' => array(
 		'name'	=> 'Português',
@@ -21,7 +21,7 @@ $languages = array(
 	),
 	'en' => array(
 		'name'	=> 'English',
-		'url'	=> '/streaming-encontro/youth-vocational-meeting-neocatechumenal-way'
+		'url'	=> '/youth-vocational-meeting-neocatechumenal-way'
 	),
 );
 
