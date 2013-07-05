@@ -11,9 +11,9 @@
 
     <?php /** @todo Elegir solo los pesos y subset adecuados de la tipo!!! */ ?>
     <link href='http://fonts.googleapis.com/css?family=Signika:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/streaming.css">
+    <link rel="stylesheet" href="<?php echo ROOT ?>/css/normalize.css">
+    <link rel="stylesheet" href="<?php echo ROOT ?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo ROOT ?>/css/streaming.css">
 </head>
 <body>
     <!--[if lt IE 7]>
