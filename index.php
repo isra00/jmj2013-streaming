@@ -39,18 +39,22 @@ if (!$config = apc_fetch(CACHE_KEY))
 $languages = array(
 	'es' => array(
 		'name'	=> 'Castellano',
+		'code'	=> 'es_ES',
 		'url'	=> '/encuentro-vocacional-jovenes-camino-neocatecumenal',
 	),
 	/*'pt' => array(
 		'name'	=> 'Português',
+		'code'	=> 'pt_BR',
 		'url'	=> '/streaming-encontro/encontro-vocacional-jovens-caminho-neocatecumenal'
 	),*/
 	'it' => array(
 		'name'	=> 'Italiano',
+		'code'	=> 'it_IT',
 		'url'	=> '/'
 	),
 	'en' => array(
 		'name'	=> 'English',
+		'code'	=> 'en_US',
 		'url'	=> '/youth-vocational-meeting-neocatechumenal-way'
 	),
 );
@@ -63,6 +67,7 @@ include_once "lang-en.php";
 include_once "lang-$current_lang.php";
 
 header('X-UA-Compatible: IE=edge,chrome=1');
+header("Content-Language: $current_lang");
 
 $show = array(
 	'player' 		=> !$config['general_disable'] && !$config['force_meeting_finished'],
