@@ -29,7 +29,9 @@ $languages = array(
 $current_lang = isset($_GET['lang']) ? $_GET['lang'] : 'es';
 $current_lang = in_array($current_lang, array_keys($languages)) ? $current_lang : 'es';
 
-include "lang-$current_lang.php";
+//EN is the default language and acts as fallback
+include_once "lang-en.php";
+include_once "lang-$current_lang.php";
 
 
 /* Prepare view */
