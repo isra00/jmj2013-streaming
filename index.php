@@ -5,7 +5,11 @@
  */
 
 date_default_timezone_set('America/Sao_Paulo');
+
 define('ROOT', '/streaming-encontro');
+define('CACHE_TTL', 60 * 2); //2 minutes
+define('CACHE_KEY', 'jmj2013-config'); //2 minutes
+
 define('MEETING_START', strtotime('2013-07-29 14:00:00'));
 define('MEETING_END', strtotime('2013-07-29 20:00:00'));
 
@@ -13,12 +17,18 @@ define('MEETING_END', strtotime('2013-07-29 20:00:00'));
  * Load config 
  */
 
-$default_config = array(
-	'general_disable'			=> false,
-	'force_meeting_finished'	=> false,
-);
-$config = json_decode(file_get_contents('config.json'), true);
-$config = array_merge($default_config, $config); //Override default configs
+if (!$config = apc_fetch(CACHE_KEY))
+{
+	$default_config = array(
+		'general_disable'			=> false,
+		'force_meeting_finished'	=> false,
+	);
+	$config = json_decode(file_get_contents('config.json'), true);
+	$config = array_merge($default_config, $config); //Override default configs	
+
+	apc_store(CACHE_KEY, $config, CACHE_TTL);
+}
+
 
 /* 
  * Prepare view 
