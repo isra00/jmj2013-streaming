@@ -24,7 +24,7 @@
     <meta property="og:url" content="<?php echo URL_SELF ?>"/>
     <meta property="og:site_name" content="Rio 2013 Caminho Neocatecumenal"/>
     <meta property="fb:admins" content="100003576128882"/>
-    <meta property="og:image" content="<?php echo ROOT ?>/img/thumb.jpg"/>
+    <meta property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME'] ?><?php echo ROOT ?>/img/thumb.jpg"/>
 </head>
 <body>
     <!--[if lt IE 7]>
