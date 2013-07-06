@@ -78,7 +78,7 @@
             </div>
             <?php endif ?>
 
-            <?php if ($show['not_yet']) : ?>
+            <?php if ($show['not_yet'] && !$config['general_disable']) : ?>
             <div class="warning" id="not-yet">
                 <?php echo $msg['not_yet_title'] ?>
                 <p id="local-time"></p>
