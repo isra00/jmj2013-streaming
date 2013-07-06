@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
 
     <?php /** @todo Elegir solo los pesos y subset adecuados de la tipo!!! */ ?>
-    <link href='http://fonts.googleapis.com/css?family=Signika:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika:300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo ROOT ?>/css/normalize.css">
     <link rel="stylesheet" href="<?php echo ROOT ?>/css/main.css">
     <link rel="stylesheet" href="<?php echo ROOT ?>/css/streaming.css">
