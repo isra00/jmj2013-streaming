@@ -10,7 +10,7 @@
  * GENERAL
  */
 body {
-	font-family: 'Signika';
+	font-family: 'Signika', sans-serif;
 	font-size: 1.2em;
 }
 
@@ -111,7 +111,7 @@ header {
 		border-left: 1px solid silver;
 		padding: 0 0 0 .5em;
 		min-height: 4em;
-		font-family: arial;
+		font-family: arial, sans-serif;
 	}
 		.bottom-links a strong {
 			display: block;
