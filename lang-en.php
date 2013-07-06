@@ -7,6 +7,7 @@ $msg['chrome_frame']	= 'Estás usando un navegador <strong>obsoleto</strong>. Po
 
 $msg['title']			= 'Neocatechumenal Way vocational meeting';
 $msg['subtitle']		= 'JMJ Rio de Janeiro 2013 · 29 de julio';
+$msg['subtitle_start']	= '29 de julio';
 $msg['intro_text']		= 'Watch live the <strong>youth meeting</strong> with Kiko Argüello, Carmen Hernández y P. Mario Pezzi, iniciadores del Camino Neocatecumenal.';
 
 $msg['streaming_help']	= 'Can\'t see the video properly? <a href="">Click here</a>.';
