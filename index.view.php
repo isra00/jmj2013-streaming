@@ -17,14 +17,14 @@
 
     <meta name="description" content="<?php echo $msg['meta_content'] ?>" />
     <link rel="canonical" href="<?php echo URL_SELF ?>" />
-    <meta property='og:locale' content='<?php echo $languages[$current_lang]['code'] ?>" />
-    <meta property='og:type' content='website' />
-    <meta property='og:title' content='<?php echo $msg['page_title'] ?>'/>
-    <meta property='og:description' content='<?php echo $msg['meta_content'] ?>'/>
-    <meta property='og:url' content='<?php echo URL_SELF ?>'/>
-    <meta property='og:site_name' content='Rio 2013 Caminho Neocatecumenal'/>
-    <meta property='fb:admins' content='100003576128882'/>
-    <meta property='og:image' content='<?php echo ROOT ?>/img/thumb.jpg'/>
+    <meta property="og:locale" content="<?php echo $languages[$current_lang]['code'] ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?php echo $msg['page_title'] ?>"/>
+    <meta property="og:description" content="<?php echo $msg['meta_content'] ?>"/>
+    <meta property="og:url" content="<?php echo URL_SELF ?>"/>
+    <meta property="og:site_name" content="Rio 2013 Caminho Neocatecumenal"/>
+    <meta property="fb:admins" content="100003576128882"/>
+    <meta property="og:image" content="<?php echo ROOT ?>/img/thumb.jpg"/>
 </head>
 <body>
     <!--[if lt IE 7]>
