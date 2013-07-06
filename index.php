@@ -6,12 +6,14 @@
 
 date_default_timezone_set('America/Sao_Paulo');
 
-define('ROOT', '/streaming-encontro');
-define('CACHE_TTL', 60 * 2); //2 minutes
-define('CACHE_KEY', 'jmj2013-config'); //2 minutes
+define('ROOT', 			'/streaming-encontro');
+define('CACHE_TTL',		60 * 2); //2 minutes
+define('CACHE_KEY',		'jmj2013-config'); //2 minutes
 
-define('MEETING_START', strtotime('2013-07-29 14:00:00'));
-define('MEETING_END', strtotime('2013-07-29 20:00:00'));
+define('MEETING_START',	strtotime('2013-07-29 14:00:00'));
+define('MEETING_END',	strtotime('2013-07-29 20:00:00'));
+
+define('URL_SELF',		'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']);
 
 /*
  * Load config 

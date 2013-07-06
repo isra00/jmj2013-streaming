@@ -28,14 +28,35 @@
     <?php endforeach ?>
     </nav>
 
-    <div class="main">
+    <div class="main" itemscope itemtype="http://data-vocabulary.org/Event">
 
         <header>
-            <h1 class="title"><?php echo $msg['title'] ?></h1>
-            <h2 class="subtitle"><?php echo $msg['subtitle'] ?></h2>
+            <h1 class="title">
+                <a href="http://www.example.com/events/spinaltap" itemprop="url" >
+                    <span itemprop="summary"><?php echo $msg['title'] ?></span>
+                </a>
+            </h1>
+            <h2 class="subtitle">
+                <?php echo $msg['subtitle'] ?>
+                <time class="start" itemprop="startDate" datetime="2013-07-29T14:30-03:00"><?php echo $msg['subtitle_start'] ?></time>
+                <time class="end" itemprop="endDate" datetime="2013-07-29T19:00-03:00">Jul 29, 19:00PM</time>
+                ·
+                <span class="location" itemprop="location" itemscope itemtype="http://data-vocabulary.org/​Organization">
+                    <span itemprop="name">RioCentro</span>
+                    ​<span class="address" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+                        <span itemprop="street-address">Av. Salvador Allende, 6555</span>, 
+                        <span itemprop="locality">Barra da Tijuca, Rio de Janeiro</span>, 
+                        <span itemprop="region">RJ</span>
+                    </span>
+                    <span class="geo" itemprop="geo" itemscope itemtype="http://data-vocabulary.org/​Geo">
+                        <meta itemprop="latitude" content="-22.979024" />
+                        <meta itemprop="longitude" content="-43.413181" />
+                    </span>
+                </span>
+            </h2>
         </header>
 
-        <p class="intro-text"><?php echo $msg['intro_text'] ?></p>
+        <p class="intro-text" itemprop="description"><?php echo $msg['intro_text'] ?></p>
 
         <section class="video-area">
 

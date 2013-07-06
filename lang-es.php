@@ -6,7 +6,8 @@ $msg['meta_content']	= 'Retransmisión en directo del encuentro vocacional de j�
 $msg['chrome_frame']	= 'Estás usando un navegador <strong>obsoleto</strong>. Por favor, <a href="http://browsehappy.com/">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorarlo.';
 
 $msg['title']			= 'Encuentro vocacional del Camino Neocatecumenal';
-$msg['subtitle']		= 'JMJ Rio de Janeiro 2013 · 29 de julio';
+$msg['subtitle']		= 'JMJ Rio de Janeiro 2013 · ';
+$msg['subtitle_start']	= '29 de julio';
 $msg['intro_text']		= 'Vea en directo el <strong>encuentro de jóvenes</strong> Kiko Argüello, Carmen Hernández y P. Mario Pezzi, iniciadores del Camino Neocatecumenal.';
 
 $msg['streaming_help']	= '¿No puede ver el vídeo correctamente? <a href="">Haga click aquí</a>.';

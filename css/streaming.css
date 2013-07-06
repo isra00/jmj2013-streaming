@@ -67,13 +67,22 @@ header {
 	text-align: center;
 	font-weight: 600;
 	margin: 0;
-	color: #33922e;
 }
+	.title a {
+		color: #33922e;
+		text-decoration: none;
+	}
+
 .subtitle {
 	text-align: center;
 	font-weight: 400;
 	margin-top: 0;
 }
+	.subtitle .end,
+	.subtitle .address,
+	.subtitle .geo {
+		display: none;
+	}
 
 .intro-text {
 	margin: 2em 0;
