@@ -84,7 +84,7 @@ header {
 	display: none;
 }
 
-.not-yet {
+.warning {
 	background: #eee;
 	border: 1px solid silver;
 	border-radius: .4em;
@@ -94,9 +94,16 @@ header {
 	margin: 0 auto;
 	width: 32em;
 }
-	.not-yet ul {
+	.warning ul {
 		margin-bottom: 0;
 	}
+.warning.error {
+	color: red;
+}
+.warning.finished {
+	text-align: center;
+	font-size: 1.2em;
+}
 
 .bottom-links {
 	margin: 3em 0;
@@ -120,6 +127,14 @@ header {
 	.bottom-links .jmj-cnc {
 		
 	}
+
+/*
+ * Generic
+ */
+
+.block {
+	display: block;
+}
 
 
 /******************************************************* MOBILE *******************************************************/

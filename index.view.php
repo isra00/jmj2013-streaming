@@ -38,14 +38,33 @@
         <p class="intro-text"><?php echo $msg['intro_text'] ?></p>
 
         <section class="video-area">
-            <div class="livestream-player" id="livestream-player">
+
+            <?php if ($show['player']) : ?>
+            <div class="livestream-player <?php if ($show['streaming_now']) echo 'block' ?>" id="livestream-player">
                 <object width="853" height="480"><param name="movie" value="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3" type="application/x-shockwave-flash" width="853" height="480" allowscriptaccess="always" allowfullscreen="true"></embed></object>
                 <p class="help"><?php echo $msg['streaming_help'] ?></p>
             </div>
-            <div class="not-yet" id="not-yet">
+            <?php endif ?>
+
+            <?php if ($show['not_yet']) : ?>
+            <div class="warning" id="not-yet">
                 <?php echo $msg['not_yet_title'] ?>
                 <p id="local-time"></p>
             </div>
+            <?php endif ?>
+
+            <?php if ($show['finished']) : ?>
+            <div class="warning finished" id="finished">
+                <?php echo $msg['finished'] ?>
+            </div>
+            <?php endif ?>
+
+            <?php if ($config['general_disable']) : ?>
+            <div class="warning error">
+                <?php echo $msg['unavailable'] ?>
+            </div>
+            <?php endif ?>
+
         </section>
 
         <footer class="bottom-links">

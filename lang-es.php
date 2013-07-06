@@ -14,6 +14,7 @@ $msg['streaming_help']	= '¿No puede ver el vídeo correctamente? <a href="">Hag
 $msg['not_yet_title']	= 'El evento será retransmitido el 29 de julio a las 14:00 hora de Rio (GMT -3).';
 $msg['local_time']		= 'En su hora local serán las ';
 $msg['finished']		= 'El encuentro ha terminado';
+$msg['unavailable']		= 'La retransmisión no está disponible en estos momentos. Disculpe las molestias.';
 
 $msg['link_jmj_cnc']	= 'Volver al site <strong>Rio 2013 CNC</strong>';
 $msg['link_jmj']		= 'Sitio oficial de la <strong>JMJ Rio 2013</strong>';
