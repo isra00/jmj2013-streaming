@@ -3,6 +3,7 @@
 /* Init */
 
 define('ROOT', '/streaming-encontro');
+date_default_timezone_set('America/Sao_Paulo');
 
 header('X-UA-Compatible: IE=edge,chrome=1');
 
@@ -32,6 +33,5 @@ include "lang-$current_lang.php";
 
 
 /* Prepare view */
-
 
 include 'index.view.php';
