@@ -32,7 +32,7 @@
 
         <header>
             <h1 class="title">
-                <a href="http://www.example.com/events/spinaltap" itemprop="url" >
+                <a href="<?php echo URL_SELF ?>" itemprop="url" >
                     <span itemprop="summary"><?php echo $msg['title'] ?></span>
                 </a>
             </h1>
