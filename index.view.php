@@ -72,7 +72,7 @@
         <section class="video-area">
 
             <?php if ($show['player'] && $show['redevida']) : ?>
-            <div class="redevida-player">
+            <div class="redevida-player <?php if ($show['streaming_now']) echo 'block' ?>">
                 <object width="480" height="380" type="application/x-oleobject" standby="Loading Microsoft Windows Media Player components..." codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,0,02,0902" classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" id="mediaPlayer"> 
                     <param value="mms://wmedia.telium.com.br/redevida" name="fileName">  
                     <param value="0" name="animationatStart"> 
@@ -126,21 +126,33 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
     $(function() {
-        var meeting_date_utc = new Date();
-        meeting_date_utc.setUTCFullYear(2013);
-        meeting_date_utc.setUTCMonth(06);
-        meeting_date_utc.setUTCDate(29);
-        meeting_date_utc.setUTCHours(17); //UTC-3
 
-        document.getElementById("local-time").innerHTML = "<?php echo $msg['local_time'] ?>" + meeting_date_utc.getHours() + ":00.";
+        var localTime,
+            meeting_date_utc = new Date();
+
+        meeting_date_utc.setUTCFullYear(<?php echo gmdate('Y', MEETING_START) ?>);
+        meeting_date_utc.setUTCMonth(<?php echo gmdate('m', MEETING_START) - 1 ?>);
+        meeting_date_utc.setUTCDate(<?php echo gmdate('d', MEETING_START) ?>);
+        meeting_date_utc.setUTCHours(<?php echo gmdate('H', MEETING_START) ?>);
+        meeting_date_utc.setUTCMinutes(<?php echo gmdate('i', MEETING_START) ?>);
+
+        if (localTime = document.getElementById("local-time"))
+        {
+            localTime.innerHTML = "<?php echo $msg['local_time'] ?>" + meeting_date_utc.getHours() + ":00.";
+        }
 
         var checkDate = function() {
             var now = new Date();
-            if (now >= meeting_date_utc) {
+            console.log("Now: " + now.toUTCString());
+            console.log("Event: " + meeting_date_utc.toUTCString());
+            if (now.toUTCString() >= meeting_date_utc.toUTCString())
+            {
                 document.getElementById("livestream-player").style.display = "block";
                 document.getElementById("not-yet").style.display = "none";
             }
         };
+
+        checkDate();
 
         setInterval(checkDate, 30*1000);
     });

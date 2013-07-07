@@ -87,12 +87,10 @@ header {
 	margin: 2em 0;
 }
 
-.livestream-player {
-	text-align: center;
-	display: none;
-}
+.livestream-player,
 .redevida-player {
 	text-align: center;
+	display: none;
 }
 
 .warning {

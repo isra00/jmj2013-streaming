@@ -7,12 +7,18 @@ function generate_input($name, $value, $type)
 {
 	$output = "<input name='$name' type='$type'";
 
-	if ('checkbox' == $type)
+	switch ($type)
 	{
-		if ($value)
-		{
-			$output .= " checked='checked'";
-		}
+		case 'checkbox':
+			if ($value)
+			{
+				$output .= " checked='checked'";
+			}
+			break;
+
+		case 'text':
+			$output .= " value='$value'";
+			break;
 	}
 
 	$output .= ' />';
@@ -32,6 +38,14 @@ $directives = array(
 	'redevida' => array(
 		'description'	=> 'Mostrar streaming de Rede Vida',
 		'type'			=> 'checkbox'
+	),
+	'event_start' => array(
+		'description'	=> 'Início do evento (hora de Rio)',
+		'type'			=> 'text'
+	),
+	'event_end' => array(
+		'description'	=> 'Fim do evento (hora de Rio)',
+		'type'			=> 'text'
 	),
 );
 
@@ -104,6 +118,7 @@ $current_config = json_decode(file_get_contents(CONFIG_FILE), true);
 			</table>
 
 			<div class="form-actions text-center">
+				<p><strong>Verifique todas as opções antes de guardar!</strong></p>
 				<button type="submit" class="btn btn-primary btn-large" name="sent">Salvar</button>
 			</div>
 

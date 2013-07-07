@@ -10,9 +10,6 @@ define('ROOT', 			'/streaming-encontro');
 define('CACHE_TTL',		60 * 2); //2 minutes
 define('CACHE_KEY',		'jmj2013-config');
 
-define('MEETING_START',	strtotime('2013-07-29 14:00:00'));
-define('MEETING_END',	strtotime('2013-07-29 20:00:00'));
-
 define('URL_SELF',		'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']);
 
 /*
@@ -25,12 +22,17 @@ if (!$config = apc_fetch(CACHE_KEY))
 		'general_disable'			=> false,
 		'force_meeting_finished'	=> false,
 		'redevida'					=> false,
+		'event_start'				=> '2013-07-29 14:00:00',
+		'event_end'					=> '2013-07-29 20:00:00'
 	);
 	$config = json_decode(file_get_contents('config.json'), true);
 	$config = array_merge($default_config, $config); //Override default configs	
 
 	apc_store(CACHE_KEY, $config, CACHE_TTL);
 }
+
+define('MEETING_START',	strtotime($config['event_start']));
+define('MEETING_END',	strtotime($config['event_end']));
 
 
 /* 
@@ -78,6 +80,5 @@ $show = array(
 );
 
 $show['streaming_now'] = time() > MEETING_START && time() < MEETING_END && $show['player'];
-$show['streaming_now'] = true;
 
 include 'index.view.php';
