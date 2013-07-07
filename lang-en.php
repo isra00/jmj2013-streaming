@@ -2,6 +2,7 @@
 
 $msg['page_title']		= 'Neocatechumenal Way vocational meeting - live streaming';
 $msg['meta_content']	= 'Retransmisión en directo del encuentro vocacional de jóvenes del Camino Neocatecumenal con motivo de la JMJ 2013 Rio de Janeiro. Kiko Argüello.';
+$msg['meta_site_name']	= 'Rio 2013 Caminho Neocatecumenal';
 
 $msg['chrome_frame']	= 'Estás usando un navegador <strong>obsoleto</strong>. Por favor, <a href="http://browsehappy.com/">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorarlo.';
 
