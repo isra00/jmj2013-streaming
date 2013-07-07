@@ -75,7 +75,9 @@ if (isset($_POST['sent']))
 		$directives_to_store[$code] = $value_to_store;
 	}
 
-	$current_config = file_put_contents(CONFIG_FILE, json_encode($directives_to_store));
+	$json = json_encode($directives_to_store);
+	$json = str_replace(array(',"', '{', '}', '":'), array(",\n\"", "{\n", "\n}", '": '), $json);
+	$current_config = file_put_contents(CONFIG_FILE, $json);
 	apc_clear_cache('user');
 	$saved = true;
 }
