@@ -29,6 +29,10 @@ $directives = array(
 		'description'	=> 'Rematou o encontro',
 		'type'			=> 'checkbox'
 	),
+	'redevida' => array(
+		'description'	=> 'Mostrar streaming de Rede Vida',
+		'type'			=> 'checkbox'
+	),
 );
 
 $saved = false;
@@ -81,7 +85,7 @@ $current_config = json_decode(file_get_contents(CONFIG_FILE), true);
 		<h1>Control do streaming</h1>
 
 		<?php if ($saved) : ?>
-		<div class="alert alert-success">Os cámbios foram salvados corretamente</div>
+		<div class="alert alert-success" onclick="this.style.display='none'">Os cámbios foram salvados corretamente</div>
 		<?php endif ?>
 
 		<form method="post" action="<?php echo $_SERVER['REQUEST_URI'] ?>">

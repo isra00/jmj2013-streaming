@@ -71,7 +71,23 @@
 
         <section class="video-area">
 
-            <?php if ($show['player']) : ?>
+            <?php if ($show['player'] && $show['redevida']) : ?>
+            <div class="redevida-player">
+                <object width="480" height="380" type="application/x-oleobject" standby="Loading Microsoft Windows Media Player components..." codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,0,02,0902" classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" id="mediaPlayer"> 
+                    <param value="mms://wmedia.telium.com.br/redevida" name="fileName">  
+                    <param value="0" name="animationatStart"> 
+                    <param value="1" name="transparentatStart"> 
+                    <param value="1" name="autoStart"> 
+                    <param value="1" name="ShowControls"> 
+                    <param value="0" name="ShowDisplay"> 
+                    <param value="0" name="ShowStatusBar"> 
+                    <param value="0" name="loop"> 
+                    <embed width="480" height="380" loop="0" designtimesp="5311" autostart="1" src="mms://wmedia.telium.com.br/redevida" videoborder3d="0" showstatusbar="0" showdisplay="0" showtracker="0" showcontrols="1" bgcolor="darkblue" autosize="0" displaysize="4" id="mediaPlayer" pluginspage="http://microsoft.com/windows/mediaplayer/en/download/" type="application/x-mplayer2">  
+                </object>
+            </div>
+            <?php endif ?>
+
+            <?php if ($show['player'] && !$show['redevida']) : ?>
             <div class="livestream-player <?php if ($show['streaming_now']) echo 'block' ?>" id="livestream-player">
                 <object width="853" height="480"><param name="movie" value="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3" type="application/x-shockwave-flash" width="853" height="480" allowscriptaccess="always" allowfullscreen="true"></embed></object>
                 <p class="help"><?php echo $msg['streaming_help'] ?></p>

@@ -24,6 +24,7 @@ if (!$config = apc_fetch(CACHE_KEY))
 	$default_config = array(
 		'general_disable'			=> false,
 		'force_meeting_finished'	=> false,
+		'redevida'					=> false,
 	);
 	$config = json_decode(file_get_contents('config.json'), true);
 	$config = array_merge($default_config, $config); //Override default configs	
@@ -73,8 +74,10 @@ $show = array(
 	'player' 		=> !$config['general_disable'] && !$config['force_meeting_finished'],
 	'not_yet'		=> time() < MEETING_START,
 	'finished'		=> time() > MEETING_END,
+	'redevida'		=> $config['redevida'],
 );
 
 $show['streaming_now'] = time() > MEETING_START && time() < MEETING_END && $show['player'];
+$show['streaming_now'] = true;
 
 include 'index.view.php';

@@ -91,6 +91,9 @@ header {
 	text-align: center;
 	display: none;
 }
+.redevida-player {
+	text-align: center;
+}
 
 .warning {
 	background: #eee;
