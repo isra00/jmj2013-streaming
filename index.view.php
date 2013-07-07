@@ -123,6 +123,8 @@
 
     </div>
 
+
+    <?php if ($show['player']) : ?>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
     $(function() {
@@ -157,6 +159,7 @@
         setInterval(checkDate, 30*1000);
     });
     </script>
+    <?php endif ?>
 
     <script>
         /*var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
