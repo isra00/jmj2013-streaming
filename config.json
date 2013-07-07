@@ -1,1 +1,7 @@
-{"general_disable":false,"force_meeting_finished":false,"redevida":false,"event_start":"2013-07-29 14:00:00","event_end":"2013-07-29 19:00:00"}
+{
+"general_disable": false,
+"force_meeting_finished": false,
+"redevida": false,
+"event_start": "2013-07-29 14:00:00",
+"event_end": "2013-07-29 19:00:00"
+}
