@@ -145,9 +145,8 @@
 
         var checkDate = function() {
             var now = new Date();
-            console.log("Now: " + now.toUTCString());
-            console.log("Event: " + meeting_date_utc.toUTCString());
-            if (now.toUTCString() >= meeting_date_utc.toUTCString())
+
+            if (now >= meeting_date_utc)
             {
                 document.getElementById("livestream-player").style.display = "block";
                 document.getElementById("not-yet").style.display = "none";
