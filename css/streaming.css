@@ -11,7 +11,6 @@
  */
 body {
 	font-family: 'Signika', sans-serif;
-	font-size: 1.2em;
 }
 
 a,
@@ -146,10 +145,19 @@ header {
 }
 
 
+@media only screen and (min-width: 57em) {
+	body {
+		font-size: 1.2em;
+	}
+}
+
 /******************************************************* MOBILE *******************************************************/
 
 
 @media only screen and (max-width: 57em) {
+	body {
+		line-height: 1.2;
+	}
     .main {
     	width: auto;
     	padding: 1%;
@@ -160,6 +168,7 @@ header {
     }
 
     .subtitle {
+    	margin-top: .5em;
     	font-size: 1.2em;
     }
 
