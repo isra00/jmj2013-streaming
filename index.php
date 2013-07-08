@@ -71,6 +71,7 @@ include_once "lang-$current_lang.php";
 
 header('X-UA-Compatible: IE=edge,chrome=1');
 header("Content-Language: $current_lang");
+header('Content-type: text/html;charset=UTF-8');
 
 $show = array(
 	'player' 		=> !$config['general_disable'] && !$config['force_meeting_finished'],
