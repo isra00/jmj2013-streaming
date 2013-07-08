@@ -53,7 +53,7 @@ $languages = array(
 	'it' => array(
 		'name'	=> 'Italiano',
 		'code'	=> 'it_IT',
-		'url'	=> '/'
+		'url'	=> '/incontro-vocazionale-cammino-neocatecumenale'
 	),
 	'en' => array(
 		'name'	=> 'English',

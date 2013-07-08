@@ -21,5 +21,3 @@ $msg['unavailable']		= 'La retransmisión no está disponible en estos momentos.
 $msg['link_jmj_cnc']	= 'Volver al site <strong>Rio 2013 CNC</strong>';
 $msg['link_jmj']		= 'Sitio oficial de la <strong>JMJ Rio 2013</strong>';
 $msg['link_cnc'] 		= 'Sitio oficial <strong>Camino Neocatecumenal</strong>';
-
-//$msg[''] = '';
