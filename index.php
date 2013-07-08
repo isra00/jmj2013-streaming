@@ -55,11 +55,11 @@ $languages = array(
 		'code'	=> 'it_IT',
 		'url'	=> '/incontro-vocazionale-cammino-neocatecumenale'
 	),
-	'en' => array(
+	/*'en' => array(
 		'name'	=> 'English',
 		'code'	=> 'en_US',
 		'url'	=> '/youth-vocational-meeting-neocatechumenal-way'
-	),
+	),*/
 );
 
 $current_lang = isset($_GET['lang']) ? $_GET['lang'] : 'es';
