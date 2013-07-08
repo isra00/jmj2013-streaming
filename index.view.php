@@ -6,7 +6,6 @@
 <head>
     <meta charset="utf-8">
     <title><?php echo $msg['page_title'] ?></title>
-    <meta name="description" content="<?php echo $msg['meta_content'] ?>">
     <meta name="viewport" content="width=device-width">
 
     <?php /** @todo Elegir solo los pesos y subset adecuados de la tipo!!! */ ?>
