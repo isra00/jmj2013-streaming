@@ -45,11 +45,11 @@ $languages = array(
 		'code'	=> 'es_ES',
 		'url'	=> '/encuentro-vocacional-jovenes-camino-neocatecumenal',
 	),
-	/*'pt' => array(
+	'pt' => array(
 		'name'	=> 'Português',
 		'code'	=> 'pt_BR',
-		'url'	=> '/streaming-encontro/encontro-vocacional-jovens-caminho-neocatecumenal'
-	),*/
+		'url'	=> '/encontro-vocacional-jovens-caminho-neocatecumenal'
+	),
 	'it' => array(
 		'name'	=> 'Italiano',
 		'code'	=> 'it_IT',
