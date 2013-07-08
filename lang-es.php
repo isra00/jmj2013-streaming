@@ -1,6 +1,6 @@
 <?php
 
-$msg['page_title']		= 'Encuentro vocacional del Camino Neocatecumenal - retransmisión en directo';
+$msg['page_title']		= 'Ver en directo el Encuentro vocacional del Camino Neocatecumenal';
 $msg['meta_content']	= 'Retransmisión en directo del encuentro vocacional de jóvenes del Camino Neocatecumenal con motivo de la JMJ 2013 Rio de Janeiro. Kiko Argüello.';
 $msg['meta_site_name']	= 'Rio 2013 Caminho Neocatecumenal';
 
