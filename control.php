@@ -94,6 +94,7 @@ $current_config = json_decode(file_get_contents(CONFIG_FILE), true);
 	<style>
 	h1 { margin: 1em 0 1em; }
 	h4 small { display: block; }
+	.red { color: red; }
 	</style>
 </head>
 <body>
@@ -120,7 +121,7 @@ $current_config = json_decode(file_get_contents(CONFIG_FILE), true);
 			</table>
 
 			<div class="form-actions text-center">
-				<p><strong>Verifique todas as opções antes de guardar!</strong></p>
+				<p><strong class="red">Verifique todas as opções antes de guardar!</strong></p>
 				<button type="submit" class="btn btn-primary btn-large" name="sent">Salvar</button>
 			</div>
 
