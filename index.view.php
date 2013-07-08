@@ -10,8 +10,7 @@
 
     <?php /** @todo Elegir solo los pesos y subset adecuados de la tipo!!! */ ?>
     <link href='http://fonts.googleapis.com/css?family=Signika:300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<?php echo ROOT ?>/css/normalize.css">
-    <link rel="stylesheet" href="<?php echo ROOT ?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo ROOT ?>/css/normalize.main.min.css">
     <link rel="stylesheet" href="<?php echo ROOT ?>/css/streaming.css">
 
     <meta name="description" content="<?php echo $msg['meta_content'] ?>" />
