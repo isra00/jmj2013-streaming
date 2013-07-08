@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?php echo ROOT ?>/css/streaming.css">
 
     <meta name="description" content="<?php echo $msg['meta_content'] ?>" />
-    <link rel="canonical" href="<?php echo URL_SELF ?>" />
+    <link rel="canonical" href="http://www.rio2013cnc.com<?php echo $_SERVER['REQUEST_URI'] ?>" />
     <meta property="og:locale" content="<?php echo $languages[$current_lang]['code'] ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?php echo $msg['page_title'] ?>" />
@@ -24,7 +24,7 @@
     <meta property="fb:admins" content="100003576128882" />
     <meta property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME'] ?><?php echo ROOT ?>/img/thumb.jpg" />
 </head>
-<body>
+<body onload="init()">
     <!--[if lt IE 7]>
         <p class="chromeframe"><?php echo $msg['chrome_frame'] ?></p>
     <![endif]-->
@@ -123,9 +123,8 @@
 
 
     <?php if ($show['player']) : ?>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
-    $(function() {
+    function init() {
 
         var localTime,
             meeting_date_utc = new Date();
@@ -142,9 +141,9 @@
         }
 
         var checkDate = function() {
-            var now = new Date();
+           var now = new Date();
 
-            if (now >= meeting_date_utc)
+           if (now >= meeting_date_utc)
             {
                 document.getElementById("livestream-player").style.display = "block";
                 document.getElementById("not-yet").style.display = "none";
@@ -154,7 +153,7 @@
         checkDate();
 
         setInterval(checkDate, 30*1000);
-    });
+    };
     </script>
     <?php endif ?>
 
