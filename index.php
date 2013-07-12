@@ -23,7 +23,8 @@ if (!$config = apc_fetch(CACHE_KEY))
 		'force_meeting_finished'	=> false,
 		'redevida'					=> false,
 		'event_start'				=> '2013-07-29 14:00:00',
-		'event_end'					=> '2013-07-29 20:00:00'
+		'event_end'					=> '2013-07-29 20:00:00',
+		'livestream_event'			=> '2248210'
 	);
 	$config = json_decode(file_get_contents('config.json'), true);
 	$config = array_merge($default_config, $config); //Override default configs	

@@ -47,6 +47,10 @@ $directives = array(
 		'description'	=> 'Fim do evento (hora de Rio)',
 		'type'			=> 'text'
 	),
+	'livestream_event' => array(
+		'description'	=> 'ID do evento em Livestream',
+		'type'			=> 'text'
+	),
 );
 
 $saved = false;

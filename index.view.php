@@ -87,7 +87,7 @@
 
             <?php if ($show['player'] && !$show['redevida']) : ?>
             <div class="livestream-player <?php if ($show['streaming_now']) echo 'block' ?>" id="livestream-player">
-                <object width="853" height="480"><param name="movie" value="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/s6NDY8FSr9M?hl=es_ES&amp;version=3" type="application/x-shockwave-flash" width="853" height="480" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+                <iframe src="http://new.livestream.com/accounts/4698529/events/<?php echo $config['livestream_event'] ?>/player?width=640&height=360&autoPlay=false&mute=false" width="640" height="360" frameborder="0" scrolling="no"> </iframe>
                 <p class="help"><?php echo $msg['streaming_help'] ?></p>
             </div>
             <?php endif ?>
