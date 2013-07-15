@@ -114,6 +114,41 @@ header {
 	font-size: 1.2em;
 }
 
+.other-channels {
+	margin: 7% 2% 0;
+}
+	.other-channels h3 {
+		margin: 0;
+		border-bottom: 1px solid silver;
+	}
+.channels,
+.channels ul {
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	margin: .5em 0;
+}
+	.channels > li {
+		width: 25%;
+		padding: 0;
+		margin: 1em 0;
+		float: left;
+	}
+	.channels h4 {
+		margin: 0;
+	}
+	.channels ul li {
+		margin: 0 0 .3em;
+	}
+	.channels a {
+		font-family: arial, sans-serif;
+		text-decoration: none;
+		font-size: .9em;
+	}
+		.channels a:hover {
+			text-decoration: underline;
+		}
+
 .bottom-links {
 	margin: 3em 0;
 	text-align: center;
@@ -129,6 +164,9 @@ header {
 		min-height: 4em;
 		font-family: arial, sans-serif;
 	}
+		.bottom-links a:hover {
+			text-decoration: underline;
+		}
 		.bottom-links a strong {
 			display: block;
 			font-weight: bold;
@@ -175,6 +213,14 @@ header {
 
 	.warning {
 		width: auto;
+	}
+
+	.channels > li {
+		float: none;
+		width: auto;
+	}
+	.channels a {
+		font-size: 1em;
 	}
 
 	.bottom-links a {
