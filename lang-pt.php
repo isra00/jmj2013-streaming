@@ -18,6 +18,13 @@ $msg['local_time']		= 'No seu horário local serão as ';
 $msg['finished']		= 'O encontro já finalizou';
 $msg['unavailable']		= 'A retransmissão não está disponível neste momento. Desculpe as molestias.';
 
+$msg['other_media']		= 'Outras média que também transmitem o encontro';
+
 $msg['link_jmj_cnc']	= 'Voltar ao site <strong>Rio 2013 CNC</strong>';
 $msg['link_jmj']		= 'Site oficial <strong>JMJ Rio 2013</strong>';
 $msg['link_cnc'] 		= 'Site oficial <strong>Caminho Neocatecumenal</strong>';
+
+$msg['italy']			= 'Itália';
+$msg['spain']			= 'Espanha';
+$msg['latam']			= 'Hispanoamérica';
+$msg['lebanon']			= 'Líbano';

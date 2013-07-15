@@ -18,6 +18,13 @@ $msg['local_time']		= 'Ora locale ';
 $msg['finished']		= 'L’incontro è terminato';
 $msg['unavailable']		= 'La diretta non è disponibile in questo momento. Ci scusiamo per il disagio.';
 
+$msg['other_media']		= 'Altri media che trasmettono l\'incontro';
+
 $msg['link_jmj_cnc']	= 'Tornare al sito <strong>Rio 2013 CNC</strong>';
 $msg['link_jmj']		= 'Sito ufficiale della <strong>GMG di Rio 2013</strong>';
 $msg['link_cnc'] 		= 'Sito ufficiale <strong>Cammino Neocatecumenale</strong>';
+
+$msg['italy']			= 'Italia';
+$msg['spain']			= 'Spagna';
+$msg['latam']			= 'America Latina';
+$msg['lebanon']			= 'Libano';

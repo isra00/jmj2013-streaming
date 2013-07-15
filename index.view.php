@@ -114,32 +114,32 @@
         </section>
 
         <section class="other-channels">
-            <h3>Otros medios que también emiten el encuentro</h3>
+            <h3><?php echo $msg['other_media'] ?></h3>
 
             <ul class="channels">
                 <li>
-                    <h4>Italia</h4>
+                    <h4><?php echo $msg['italy'] ?></h4>
                     <ul>
                         <li><a target="_blank" href="http://www2.tv2000.it/home_page/mediacenter/00000014_Video.html">TV2000</a></li>
                         <li><a target="_blank" href="http://www.telepace.it/web-tv.php">Telepace</a></li>
                     </ul>
                 </li>
                 <li>
-                    <h4>España</h4>
+                    <h4><?php echo $msg['spain'] ?></h4>
                     <ul>
                         <li><a target="_blank" href="http://live.13tv.hollybyte.tv/">13tv</a></li>
                         <li><a target="_blank" href="http://www.mariavision.com/senal_en_vivo.php">María+Visión</a></li>
                     </ul>
                 </li>
                 <li>
-                    <h4>Hispanoamérica</h4>
+                    <h4><?php echo $msg['latam'] ?></h4>
                     <ul>
                         <li><a target="_blank" href="http://www.ewtn.com/multimedia/live_player.asp?satname=domesplp&servertime=&telrad=t007">EWTN</a></li>
                         <li><a target="_blank" href="http://www.mariavision.com/senal_en_vivo.php">María+Visión</a></li>
                     </ul>
                 </li>
                 <li>
-                    <h4>Líbano</h4>
+                    <h4><?php echo $msg['lebanon'] ?></h4>
                     <ul>
                         <li><a target="_blank" href="http://noursat.tv/en/receive-us.php">Tele Lumiere</a></li>
                     </ul>
