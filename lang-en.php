@@ -1,26 +1,26 @@
 <?php
 
-$msg['page_title']		= 'Neocatechumenal Way vocational meeting - live streaming';
-$msg['meta_content']	= 'Retransmisión en directo del encuentro vocacional de jóvenes del Camino Neocatecumenal con motivo de la JMJ 2013 Rio de Janeiro. Kiko Argüello.';
-$msg['meta_site_name']	= 'Rio 2013 Caminho Neocatecumenal';
+$msg['page_title']		= 'Vocational Encounter of the Neocatechumenal Way – live transmission';
+$msg['meta_content']	= 'Live transmission of the vocational encounter with the youth of the Neocatechumenal Way for WYD 2013 Rio de Janeiro. Kiko Argüello.';
+$msg['meta_site_name']	= 'Rio 2013 Neocatechumenal Way';
 
-$msg['chrome_frame']	= 'Estás usando un navegador <strong>obsoleto</strong>. Por favor, <a href="http://browsehappy.com/">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorarlo.';
+$msg['chrome_frame']	= 'You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.';
 
-$msg['title']			= 'Neocatechumenal Way vocational meeting';
-$msg['subtitle']		= 'JMJ Rio de Janeiro 2013 · 29 de julio';
-$msg['subtitle_start']	= '29 de julio';
-$msg['intro_text']		= 'Watch live the <strong>youth meeting</strong> with Kiko Argüello, Carmen Hernández y P. Mario Pezzi, iniciadores del Camino Neocatecumenal.';
+$msg['title']			= 'Vocational encounter of the Neocatechumenal Way';
+$msg['subtitle']		= 'July 29th · ';
+$msg['subtitle_start']	= 'July 29th';
+$msg['intro_text']		= 'Watch live the <strong>meeting with the youth</strong> in Brasil with Kiko Argüello, Carmen Hernández and Fr. Mario Pezzi, initiators of the Neocatechumenal Way, for World Youth Day.';
 
-$msg['streaming_help']	= 'Can\'t see the video properly? <a href="">Click here</a>.';
+$msg['streaming_help']	= 'Having trouble viewing the video? <a href="">Click here</a>.';
 
-$msg['not_yet_title']	= 'El evento será retransmitido el 29 de julio a las 14:00 hora de Rio (GMT -3):';
-$msg['local_time']		= 'En su hora local serán las ';
-$msg['finished']		= 'El encuentro ha terminado';
-$msg['unavailable']		= 'La retransmisión no está disponible en estos momentos. Disculpe las molestias.';
+$msg['not_yet_title']	= 'The event will be transmitted on July 29th at 2:00 PM local Rio time (GMT-3).';
+$msg['local_time']		= 'In your local time zone, the time will be ';
+$msg['finished']		= 'The meeting has finished.';
+$msg['unavailable']		= 'The stream is not available at this time. We apologize for any inconvenience.';
 
 $msg['other_media']		= 'Other media broadcasting the event';
 
-$msg['link_jmj_cnc']	= 'Volver al site <strong>Rio 2013 CNC</strong>';
+$msg['link_jmj_cnc']	= 'Return to <strong>Rio 2013 NCW</strong>';
 $msg['link_jmj']		= 'Official site <strong>WYD Rio 2013</strong>';
 $msg['link_cnc']		= 'Official site <strong>Neocatechumenal Way</strong>';
 
