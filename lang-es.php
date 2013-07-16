@@ -28,3 +28,4 @@ $msg['italy']			= 'Italia';
 $msg['spain']			= 'España';
 $msg['latam']			= 'Hispanoamérica';
 $msg['lebanon']			= 'Líbano';
+$msg['brazil']			= 'Brasil';

@@ -118,6 +118,12 @@
 
             <ul class="channels">
                 <li>
+                    <h4><?php echo $msg['brazil'] ?></h4>
+                    <ul>
+                        <li><a target="_blank" href="http://www.radiomaria.org.br/">Rádio Maria</a></li>
+                    </ul>
+                </li>
+                <li>
                     <h4><?php echo $msg['italy'] ?></h4>
                     <ul>
                         <li><a target="_blank" href="http://www2.tv2000.it/home_page/mediacenter/00000014_Video.html">TV2000</a></li>

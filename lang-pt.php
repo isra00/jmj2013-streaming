@@ -21,3 +21,9 @@ $msg['unavailable']		= 'A retransmissão não está disponível neste momento. D
 $msg['link_jmj_cnc']	= 'Voltar ao site <strong>Rio 2013 CNC</strong>';
 $msg['link_jmj']		= 'Site oficial <strong>JMJ Rio 2013</strong>';
 $msg['link_cnc'] 		= 'Site oficial <strong>Caminho Neocatecumenal</strong>';
+
+$msg['italy']			= 'Italia';
+$msg['spain']			= 'Espanha';
+$msg['latam']			= 'América Latina';
+$msg['lebanon']			= 'Líbano';
+$msg['brazil']			= 'Brasil';
