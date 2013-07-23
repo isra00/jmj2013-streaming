@@ -30,4 +30,4 @@ $msg['latam']			= 'Latin America';
 $msg['lebanon']			= 'Lebanon';
 $msg['brazil']			= 'Brazil';
 
-$msg['listen_radiomaria']   = 'Listen to the audio of the encounter through Radio Maria';
+$msg['listen_radiomaria']   = 'Listen to the audio of the encounter through';
