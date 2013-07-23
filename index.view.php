@@ -144,12 +144,6 @@
                         <li><a target="_blank" href="http://www.mariavision.com/senal_en_vivo.php">María+Visión</a></li>
                     </ul>
                 </li>
-                <li>
-                    <h4><?php echo $msg['lebanon'] ?></h4>
-                    <ul>
-                        <li><a target="_blank" href="http://noursat.tv/en/receive-us.php">Tele Lumiere</a></li>
-                    </ul>
-                </li>
             </ul>
         </section>
 
