@@ -31,4 +31,4 @@ $msg['lebanon']			= 'Líbano';
 $msg['brazil']			= 'Brasil';
 
 
-$msg['listen_radiomaria']   = 'Escute o áudio do encontro em Rádio Maria';
+$msg['listen_radiomaria']   = 'Escute o áudio do encontro em';
