@@ -89,7 +89,7 @@
             <div class="livestream-player <?php if ($show['streaming_now']) echo 'block' ?>" id="livestream-player">
                 <iframe src="http://new.livestream.com/accounts/4698529/events/<?php echo $config['livestream_event'] ?>/player?width=640&height=360&autoPlay=false&mute=false" width="640" height="360" frameborder="0" scrolling="no"> </iframe>
                 <!--<p class="help"><?php echo $msg['streaming_help'] ?></p>-->
-                <p class="radiomaria"><?php echo $msg['listen_radiomaria'] ?><a href="http://www.radiomaria.org.br/link2/">Radio Maria</a></p>
+                <p class="radiomaria"><?php echo $msg['listen_radiomaria'] ?> <a href="http://www.radiomaria.org.br/link2/">Radio Maria</a></p>
             </div>
             <?php endif ?>
 
