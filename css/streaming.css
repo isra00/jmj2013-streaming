@@ -92,6 +92,9 @@ header {
 	text-align: center;
 	display: none;
 }
+.cancaonova-player {
+	text-align: center;
+}
 
 .warning {
 	background: #eee;
