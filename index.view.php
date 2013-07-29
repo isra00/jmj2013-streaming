@@ -70,7 +70,7 @@
         <section class="video-area">
 
             <?php if ($show['player'] && $show['redevida']) : ?>
-            <div class="redevida-player <?php if ($show['streaming_now']) echo 'block' ?>">
+            <!--<div class="redevida-player <?php if ($show['streaming_now']) echo 'block' ?>">
                 <object width="480" height="380" type="application/x-oleobject" standby="Loading Microsoft Windows Media Player components..." codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,0,02,0902" classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" id="mediaPlayer"> 
                     <param value="mms://wmedia.telium.com.br/redevida" name="fileName">  
                     <param value="0" name="animationatStart"> 
@@ -82,6 +82,9 @@
                     <param value="0" name="loop"> 
                     <embed width="480" height="380" loop="0" designtimesp="5311" autostart="1" src="mms://wmedia.telium.com.br/redevida" videoborder3d="0" showstatusbar="0" showdisplay="0" showtracker="0" showcontrols="1" bgcolor="darkblue" autosize="0" displaysize="4" id="mediaPlayer" pluginspage="http://microsoft.com/windows/mediaplayer/en/download/" type="application/x-mplayer2">  
                 </object>
+            </div>-->
+            <div class="cancaonova-player <?php if ($show['streaming_now']) echo 'block' ?>">
+                <iframe src="http://tv.cancaonova.com/player/flowplayer.php" height="520" width="720" frameborder="no" style="height: 520px; width: 720px; border: 0"></iframe>
             </div>
             <?php endif ?>
 
