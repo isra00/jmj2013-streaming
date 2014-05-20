@@ -29,3 +29,5 @@ $msg['spain']			= 'Spagna';
 $msg['latam']			= 'America Latina';
 $msg['lebanon']			= 'Libano';
 $msg['brazil']			= 'Brasile';
+
+$msg['listen_radiomaria']   = 'Ascolta l\'audio del incontro su';

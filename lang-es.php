@@ -9,7 +9,7 @@ $msg['chrome_frame']	= 'Estás usando un navegador <strong>obsoleto</strong>. Po
 $msg['title']			= 'Encuentro vocacional del Camino Neocatecumenal';
 $msg['subtitle']		= 'JMJ Rio de Janeiro 2013 · ';
 $msg['subtitle_start']	= '29 de julio';
-$msg['intro_text']		= 'Vea en directo el <strong>Encuentro de jóvenes</strong> en Brasil con Kiko Kiko Argüello, Carmen Hernández y el P. Mario Pezzi, con motivo de la Jornada Mundial de la Juventud.';
+$msg['intro_text']		= 'Vea en directo el <strong>Encuentro de jóvenes</strong> en Brasil con Kiko Argüello, Carmen Hernández y el P. Mario Pezzi, con motivo de la Jornada Mundial de la Juventud.';
 
 $msg['streaming_help']	= '¿No puede ver el vídeo correctamente? <a href="">Haga click aquí</a>.';
 
@@ -29,3 +29,5 @@ $msg['spain']			= 'España';
 $msg['latam']			= 'Hispanoamérica';
 $msg['lebanon']			= 'Líbano';
 $msg['brazil']			= 'Brasil';
+
+$msg['listen_radiomaria']   = 'Escuche el audio del encuentro a través de';
