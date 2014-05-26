@@ -1,5 +1,8 @@
 <?php
 
+header('Location: http://www.neocatechumenaleiter.org/encuentro-vocacional-camino-neocatecumenal-valencia-2014', true, 301);
+die;
+
 /* 
  * Init 
  */
